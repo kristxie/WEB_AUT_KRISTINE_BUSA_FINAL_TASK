@@ -12,7 +12,7 @@ class formPage{
     }
 
     static get surnameInput(){
-        return cy.get('#lastName');
+        return cy.get('#lastName'); 
     }
 
     static get emailInput(){
